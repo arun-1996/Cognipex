@@ -70,6 +70,7 @@ Create a complete design language using `theme.json`.
 - Modern
 - Accessible
 - Mobile-first
+- Near-black canvas, layered dark surfaces, off-white text, and restrained white-tinted shadows
 
 **Deliverable**
 
@@ -98,16 +99,22 @@ Define the site's navigation and content hierarchy.
 Initial structure:
 
 - Home
-- Learn
-- Games
-- Training
-- Research
-- CVI - Cerebral Visual Impairment
+- Blogs
+- Practise
 - About
 
 Focus on structure, not content.
 
-Before creating navigation or pages, record the purpose, canonical URL, primary audience, and source content type for each section. Confirm whether **CVI** refers only to Cerebral Visual Impairment content or to a distinct audience experience.
+**Status:** The initial Information Architecture record is defined in `docs/information-architecture.md`. Do not create pages as part of this milestone.
+
+Initial section responsibilities:
+
+- **Blogs** — Cognitive education blogs and explainers at `/blog/`.
+- **Practise** — The interactive cognitive-game catalogue at `/practise/`; this is the initial training experience. Use “Cognitive Games” as the catalogue page heading.
+
+Evidence-aware references remain within relevant blog articles. There is no separate Research section at launch.
+
+Before creating navigation or pages, record the purpose, canonical URL, primary audience, and source content type for each section.
 
 Use inclusive language in public-facing content: refer to **general audiences** and **people with cognitive challenges or impairments**. Do not frame users as “normal” or “challenged”.
 
@@ -158,9 +165,12 @@ Planned content:
 
 - Articles
 - Games
-- Exercises
-- Research Papers
-- Training Programs
+
+Deferred until the core experience is validated:
+
+- Exercises as a separate object
+- Research papers as a separate library
+- Training programs
 - Assessments
 
 Think in terms of business objects rather than pages.
@@ -174,7 +184,7 @@ Before registering any content type, document the following in `docs/content-mod
 - Ownership, capabilities, REST/editor visibility, validation, and deletion behavior.
 - Privacy, retention, export, and migration requirements.
 
-Decide explicitly whether games and exercises are separate objects, and whether research papers are original editorial content, curated citations, or both.
+Initially, articles are the editorial content model. Games are the interactive practice model; decide their implementation form before registration. Research is represented through lightweight article content and references, not a separate research-paper model.
 
 For each game, document the cognitive function it is intended to exercise, the supporting evidence or rationale, and the associated educational content. Do not present these relationships as clinical claims.
 

@@ -12,42 +12,42 @@
       "defaultPalette": false,
       "palette": [
         {
-          "color": "#FFFFFF",
+          "color": "#090B10",
           "name": "Canvas",
           "slug": "canvas"
         },
         {
-          "color": "#F6F8FB",
+          "color": "#11151D",
           "name": "Surface",
           "slug": "surface"
         },
         {
-          "color": "#172033",
+          "color": "#F7F8FA",
           "name": "Text",
           "slug": "text"
         },
         {
-          "color": "#52606D",
+          "color": "#B8C0CC",
           "name": "Text muted",
           "slug": "text-muted"
         },
         {
-          "color": "#1D4ED8",
+          "color": "#93C5FD",
           "name": "Brand",
           "slug": "brand"
         },
         {
-          "color": "#1E3A8A",
+          "color": "#60A5FA",
           "name": "Brand strong",
           "slug": "brand-strong"
         },
         {
-          "color": "#0F766E",
+          "color": "#5EEAD4",
           "name": "Accent",
           "slug": "accent"
         },
         {
-          "color": "#D8DEE8",
+          "color": "#2A3442",
           "name": "Border",
           "slug": "border"
         }
@@ -125,17 +125,17 @@
       "presets": [
         {
           "name": "Small",
-          "shadow": "0 1px 2px rgba(23, 32, 51, 0.08)",
+          "shadow": "0 1px 3px rgba(255, 255, 255, 0.06)",
           "slug": "small"
         },
         {
           "name": "Medium",
-          "shadow": "0 4px 12px rgba(23, 32, 51, 0.12)",
+          "shadow": "0 4px 16px rgba(255, 255, 255, 0.08)",
           "slug": "medium"
         },
         {
           "name": "Large",
-          "shadow": "0 12px 28px rgba(23, 32, 51, 0.16)",
+          "shadow": "0 12px 32px rgba(255, 255, 255, 0.1)",
           "slug": "large"
         }
       ]

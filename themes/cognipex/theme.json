@@ -3,28 +3,257 @@
   "version": 3,
   "settings": {
     "appearanceTools": false,
+    "color": {
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "palette": [
+        {
+          "color": "#FFFFFF",
+          "name": "Canvas",
+          "slug": "canvas"
+        },
+        {
+          "color": "#F6F8FB",
+          "name": "Surface",
+          "slug": "surface"
+        },
+        {
+          "color": "#172033",
+          "name": "Text",
+          "slug": "text"
+        },
+        {
+          "color": "#52606D",
+          "name": "Text muted",
+          "slug": "text-muted"
+        },
+        {
+          "color": "#1D4ED8",
+          "name": "Brand",
+          "slug": "brand"
+        },
+        {
+          "color": "#1E3A8A",
+          "name": "Brand strong",
+          "slug": "brand-strong"
+        },
+        {
+          "color": "#0F766E",
+          "name": "Accent",
+          "slug": "accent"
+        },
+        {
+          "color": "#D8DEE8",
+          "name": "Border",
+          "slug": "border"
+        }
+      ]
+    },
+    "custom": {
+      "border": {
+        "radius": {
+          "none": "0",
+          "small": "0.25rem",
+          "medium": "0.5rem",
+          "large": "0.75rem",
+          "full": "9999px"
+        }
+      },
+      "card": {
+        "background": "var(--wp--preset--color--canvas)",
+        "border-color": "var(--wp--preset--color--border)",
+        "border-width": "1px",
+        "padding": "var(--wp--preset--spacing--5)",
+        "radius": "var(--wp--custom--border--radius--large)",
+        "shadow": "var(--wp--preset--shadow--small)"
+      }
+    },
     "layout": {
       "contentSize": "42rem",
       "wideSize": "72rem"
     },
     "spacing": {
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "name": "2XS",
+          "size": "0.25rem",
+          "slug": "1"
+        },
+        {
+          "name": "XS",
+          "size": "0.5rem",
+          "slug": "2"
+        },
+        {
+          "name": "S",
+          "size": "0.75rem",
+          "slug": "3"
+        },
+        {
+          "name": "M",
+          "size": "1rem",
+          "slug": "4"
+        },
+        {
+          "name": "L",
+          "size": "clamp(1.5rem, 1.2rem + 1vw, 2rem)",
+          "slug": "5"
+        },
+        {
+          "name": "XL",
+          "size": "clamp(2.25rem, 1.75rem + 2vw, 3.5rem)",
+          "slug": "6"
+        },
+        {
+          "name": "2XL",
+          "size": "clamp(3.5rem, 2.5rem + 4vw, 6rem)",
+          "slug": "7"
+        }
+      ],
       "units": [
         "rem",
         "%"
       ]
     },
+    "shadow": {
+      "defaultPresets": false,
+      "presets": [
+        {
+          "name": "Small",
+          "shadow": "0 1px 2px rgba(23, 32, 51, 0.08)",
+          "slug": "small"
+        },
+        {
+          "name": "Medium",
+          "shadow": "0 4px 12px rgba(23, 32, 51, 0.12)",
+          "slug": "medium"
+        },
+        {
+          "name": "Large",
+          "shadow": "0 12px 28px rgba(23, 32, 51, 0.16)",
+          "slug": "large"
+        }
+      ]
+    },
     "typography": {
-      "fluid": true
+      "customFontSize": false,
+      "defaultFontSizes": false,
+      "dropCap": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "name": "System Sans",
+          "slug": "system-sans"
+        },
+        {
+          "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+          "name": "System Mono",
+          "slug": "system-mono"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "size": "0.875rem",
+          "slug": "small"
+        },
+        {
+          "name": "Base",
+          "size": "1rem",
+          "slug": "base"
+        },
+        {
+          "name": "Medium",
+          "size": "1.125rem",
+          "slug": "medium"
+        },
+        {
+          "fluid": {
+            "max": "1.5rem",
+            "min": "1.25rem"
+          },
+          "name": "Large",
+          "size": "1.5rem",
+          "slug": "large"
+        },
+        {
+          "fluid": {
+            "max": "2.25rem",
+            "min": "1.75rem"
+          },
+          "name": "XL",
+          "size": "2.25rem",
+          "slug": "x-large"
+        },
+        {
+          "fluid": {
+            "max": "3.25rem",
+            "min": "2.25rem"
+          },
+          "name": "2XL",
+          "size": "3.25rem",
+          "slug": "xx-large"
+        }
+      ]
     },
     "useRootPaddingAwareAlignments": true
   },
   "styles": {
+    "color": {
+      "background": "var:preset|color|canvas",
+      "text": "var:preset|color|text"
+    },
     "spacing": {
       "padding": {
         "left": "1rem",
         "right": "1rem"
       }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|system-sans",
+      "fontSize": "var:preset|font-size|base",
+      "lineHeight": "1.5"
+    },
+    "elements": {
+      "button": {
+        "border": {
+          "radius": "var(--wp--custom--border--radius--medium)"
+        },
+        "color": {
+          "background": "var:preset|color|brand",
+          "text": "var:preset|color|canvas"
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "0.75rem",
+            "left": "1rem",
+            "right": "1rem",
+            "top": "0.75rem"
+          }
+        },
+        "typography": {
+          "fontSize": "var:preset|font-size|base",
+          "fontWeight": "600",
+          "lineHeight": "1.25"
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var:preset|color|brand"
+        }
+      }
     }
   }
 }
-

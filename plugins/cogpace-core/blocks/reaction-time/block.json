@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cogpace/reaction-time",
+	"version": "0.1.0",
+	"title": "Reaction Time Game",
+	"category": "widgets",
+	"icon": "performance",
+	"description": "A private, session-only visual reaction-time activity.",
+	"keywords": [ "reaction", "game", "practice" ],
+	"textdomain": "cogpace-core",
+	"supports": {
+		"align": [ "wide" ],
+		"html": false,
+		"multiple": false
+	},
+	"render": "file:./render.php",
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js"
+}

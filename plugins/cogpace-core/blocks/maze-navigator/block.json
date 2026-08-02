@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cogpace/maze-navigator",
+	"version": "0.2.1",
+	"title": "Maze Navigator Game",
+	"category": "widgets",
+	"icon": "move",
+	"description": "A private, session-only spatial navigation game.",
+	"keywords": [ "maze", "spatial", "navigation", "game" ],
+	"textdomain": "cogpace-core",
+	"supports": {
+		"align": [ "wide" ],
+		"html": false,
+		"multiple": false
+	},
+	"render": "file:./render.php",
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js"
+}

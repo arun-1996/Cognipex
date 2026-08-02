@@ -1,0 +1,191 @@
+.wp-block-cogpace-maze-navigator.cogpace-maze-navigator {
+	background: var(--wp--preset--color--surface, #11151d);
+	border: 1px solid var(--wp--preset--color--border, #2a3442);
+	border-radius: var(--wp--custom--border--radius--large, 0.75rem);
+	color: var(--wp--preset--color--text, #f7f8fa);
+	padding: clamp(1rem, 3vw, 2rem);
+}
+
+.cogpace-maze-navigator__header {
+	max-width: 42rem;
+}
+
+.cogpace-maze-navigator__header h2,
+.cogpace-maze-navigator__results h3 {
+	margin-block: 0.25rem 0.75rem;
+}
+
+.cogpace-maze-navigator__eyebrow {
+	color: var(--wp--preset--color--accent, #5eead4);
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.cogpace-maze-navigator__panel,
+.cogpace-maze-navigator__results {
+	background: var(--wp--preset--color--canvas, #090b10);
+	border: 1px solid var(--wp--preset--color--border, #2a3442);
+	border-radius: var(--wp--custom--border--radius--medium, 0.5rem);
+	margin-top: 1.5rem;
+	padding: clamp(1rem, 3vw, 1.5rem);
+}
+
+.cogpace-maze-navigator__panel[data-state='complete'] {
+	border-color: var(--wp--preset--color--accent, #5eead4);
+}
+
+.cogpace-maze-navigator__meta {
+	display: flex;
+	font-size: 0.875rem;
+	font-weight: 700;
+	justify-content: space-between;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.cogpace-maze-navigator__meta p {
+	color: var(--wp--preset--color--text-muted, #b8c0cc);
+	margin: 0;
+}
+
+.cogpace-maze-navigator__board {
+	--maze-size: 6;
+
+	background: var(--wp--preset--color--surface, #11151d);
+	border: 2px solid var(--wp--preset--color--border, #2a3442);
+	border-radius: var(--wp--custom--border--radius--medium, 0.5rem);
+	display: grid;
+	grid-template-columns: repeat(var(--maze-size), minmax(0, 1fr));
+	margin: 1rem auto;
+	max-width: 27rem;
+	overflow: hidden;
+	width: 100%;
+}
+
+.cogpace-maze-navigator__board:focus-visible {
+	outline: 3px solid var(--wp--preset--color--accent, #5eead4);
+	outline-offset: 4px;
+}
+
+.cogpace-maze-navigator__cell {
+	align-items: center;
+	aspect-ratio: 1;
+	border: 1px solid color-mix(in srgb, var(--wp--preset--color--border, #2a3442) 72%, transparent);
+	display: flex;
+	font-size: clamp(1.25rem, 5vw, 2rem);
+	justify-content: center;
+	line-height: 1;
+}
+
+.cogpace-maze-navigator__cell.is-wall {
+	background:
+		repeating-linear-gradient(
+			45deg,
+			transparent 0 0.3rem,
+			rgba(255, 255, 255, 0.08) 0.3rem 0.45rem
+		),
+		var(--wp--preset--color--border, #2a3442);
+}
+
+.cogpace-maze-navigator__cell.is-goal {
+	color: var(--wp--preset--color--accent, #5eead4);
+}
+
+.cogpace-maze-navigator__cell.is-player {
+	background: color-mix(in srgb, var(--wp--preset--color--brand, #93c5fd) 18%, transparent);
+	color: var(--wp--preset--color--brand, #93c5fd);
+}
+
+.cogpace-maze-navigator__controls {
+	display: grid;
+	gap: 0.5rem;
+	grid-template-areas:
+		'. up .'
+		'left down right';
+	grid-template-columns: repeat(3, 3.25rem);
+	justify-content: center;
+}
+
+.cogpace-maze-navigator :where(button) {
+	border: 0;
+	border-radius: var(--wp--custom--border--radius--medium, 0.5rem);
+	cursor: pointer;
+	font: inherit;
+	font-weight: 700;
+	min-height: 3rem;
+	padding: 0.75rem 1rem;
+	touch-action: manipulation;
+}
+
+.cogpace-maze-navigator__controls button {
+	background: var(--wp--preset--color--surface, #11151d);
+	border: 2px solid var(--wp--preset--color--border, #2a3442);
+	color: var(--wp--preset--color--text, #f7f8fa);
+	font-size: 1.5rem;
+	min-height: 3.25rem;
+	padding: 0;
+	width: 3.25rem;
+}
+
+.cogpace-maze-navigator__controls [data-maze-direction='up'] {
+	grid-area: up;
+}
+
+.cogpace-maze-navigator__controls [data-maze-direction='left'] {
+	grid-area: left;
+}
+
+.cogpace-maze-navigator__controls [data-maze-direction='down'] {
+	grid-area: down;
+}
+
+.cogpace-maze-navigator__controls [data-maze-direction='right'] {
+	grid-area: right;
+}
+
+.cogpace-maze-navigator__controls button:hover:not(:disabled) {
+	border-color: var(--wp--preset--color--accent, #5eead4);
+}
+
+.cogpace-maze-navigator :where(button):focus-visible {
+	outline: 3px solid var(--wp--preset--color--accent, #5eead4);
+	outline-offset: 3px;
+}
+
+.cogpace-maze-navigator :where(button):disabled {
+	cursor: default;
+	opacity: 0.58;
+}
+
+.cogpace-maze-navigator__status {
+	font-weight: 600;
+	margin-block: 1rem 0;
+	min-height: 3em;
+	text-align: center;
+}
+
+.cogpace-maze-navigator__actions {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1rem;
+}
+
+.cogpace-maze-navigator__actions button,
+.cogpace-maze-navigator__results button {
+	background: var(--wp--preset--color--brand, #93c5fd);
+	color: var(--wp--preset--color--canvas, #090b10);
+}
+
+.cogpace-maze-navigator__results [data-maze-summary] {
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+
+.cogpace-maze-navigator__note {
+	color: var(--wp--preset--color--text-muted, #b8c0cc);
+	font-size: 0.875rem;
+	margin-bottom: 0;
+}

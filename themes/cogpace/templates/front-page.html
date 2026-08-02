@@ -1,0 +1,83 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","area":"header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"cogpace-home","layout":{"type":"constrained"}} -->
+<main class="wp-block-group cogpace-home">
+	<!-- wp:pattern {"slug":"cogpace/hero"} /-->
+
+	<!-- wp:pattern {"slug":"cogpace/feature-grid"} /-->
+
+	<!-- wp:pattern {"slug":"cogpace/how-it-works"} /-->
+
+	<!-- wp:pattern {"slug":"cogpace/five-minute-practice"} /-->
+
+	<!-- wp:group {"align":"wide","className":"cogpace-home-articles","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignwide cogpace-home-articles">
+		<!-- wp:paragraph {"className":"cogpace-eyebrow","textColor":"accent","fontSize":"small"} -->
+		<p class="cogpace-eyebrow has-accent-color has-text-color has-small-font-size">From the blog</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:heading {"level":2,"fontSize":"x-large"} -->
+		<h2 class="wp-block-heading has-x-large-font-size">Explore how your brain works</h2>
+		<!-- /wp:heading -->
+
+		<!-- wp:paragraph {"textColor":"text-muted"} -->
+		<p class="has-text-muted-color has-text-color">Practical, evidence-aware reads about the everyday habits that support learning, focus, and brain health.</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"layout":{"type":"constrained"}} -->
+		<div class="wp-block-query">
+			<!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+				<!-- wp:pattern {"slug":"cogpace/article-card"} /-->
+			<!-- /wp:post-template -->
+		</div>
+		<!-- /wp:query -->
+
+		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+		<div class="wp-block-buttons">
+			<!-- wp:button {"className":"is-style-outline"} -->
+			<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/blog/">View all articles</a></div>
+			<!-- /wp:button -->
+		</div>
+		<!-- /wp:buttons -->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"align":"wide","className":"cogpace-home-featured","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignwide cogpace-home-featured">
+		<!-- wp:paragraph {"className":"cogpace-eyebrow","textColor":"accent","fontSize":"small"} -->
+		<p class="cogpace-eyebrow has-accent-color has-text-color has-small-font-size">Featured practice</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:heading {"level":2,"fontSize":"x-large"} -->
+		<h2 class="wp-block-heading has-x-large-font-size">Choose a focused activity</h2>
+		<!-- /wp:heading -->
+
+		<!-- wp:paragraph {"textColor":"text-muted"} -->
+		<p class="has-text-muted-color has-text-color">Explore Cogpace games with clear instructions, accessible interactions, and private session-only results.</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:query {"query":{"perPage":6,"pages":0,"offset":0,"postType":"cogpace_game","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"layout":{"type":"constrained"}} -->
+		<div class="wp-block-query">
+			<!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+				<!-- wp:group {"className":"cogpace-card cogpace-game-card","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group cogpace-card cogpace-game-card">
+					<!-- wp:paragraph {"className":"cogpace-eyebrow","textColor":"accent","fontSize":"small"} -->
+					<p class="cogpace-eyebrow has-accent-color has-text-color has-small-font-size">Cognitive game</p>
+					<!-- /wp:paragraph -->
+
+					<!-- wp:post-title {"isLink":true,"level":3,"fontSize":"large"} /-->
+
+					<!-- wp:post-excerpt {"moreText":"Start","showMoreOnNewLine":true} /-->
+				</div>
+				<!-- /wp:group -->
+			<!-- /wp:post-template -->
+		</div>
+		<!-- /wp:query -->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:pattern {"slug":"cogpace/editorial-trust"} /-->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","area":"footer"} /-->

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cogpace/focus-grid",
+	"version": "0.1.0",
+	"title": "Focus Grid Game",
+	"category": "widgets",
+	"icon": "grid-view",
+	"description": "A private, session-only visual scanning game.",
+	"keywords": [ "focus", "attention", "numbers", "grid", "game" ],
+	"textdomain": "cogpace-core",
+	"supports": {
+		"align": [ "wide" ],
+		"html": false,
+		"multiple": false
+	},
+	"render": "file:./render.php",
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js"
+}

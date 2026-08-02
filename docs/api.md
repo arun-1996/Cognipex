@@ -2,7 +2,14 @@
 
 ## Status
 
-No custom API surface exists.
+No custom REST route exists. Cogpace Core uses the standard WordPress REST representations for its public post type, taxonomy, and registered metadata.
+
+## WordPress REST contracts
+
+- `cogpace_game` is REST-visible through the core posts controller.
+- `cogpace_cognitive_domain` is REST-visible through the core terms controller.
+- `cogpace_game_key`, `cogpace_accessibility_notes`, and `cogpace_evidence_reference` are single string fields exposed through registered post meta. Writes require the ability to edit posts and use their documented sanitizers.
+- The Reaction Time, True or False, and Sequence Recall runtimes do not send requests and create no API, analytics, or score-storage surface.
 
 ## Contract rules
 
@@ -23,4 +30,3 @@ No custom API surface exists.
 | Input | Parameters, validation, and limits |
 | Output | Schema, status codes, cache behavior |
 | Lifecycle | Owner, introduced version, deprecation path |
-

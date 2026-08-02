@@ -1,0 +1,214 @@
+0000.000 (0) Opened log file at time: Sat, 01 Aug 2026 18:14:01 +0000 on http://cognipex.local
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.6 WP: 7.0.2 PHP: 8.2.23 (fpm-fcgi, Darwin Mac.lan 24.6.0 Darwin Kernel Version 24.6.0: Tue Apr 21 20:13:48 PDT 2026; root:xnu-11417.140.69.710.16~1/RELEASE_ARM64_T8112 arm64) MySQL: 8.0.35 (max packet size=16777216) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.2M | 4M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 233210.5 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.004 (0) Semaphore (fd, wp_options) being initialised
+0000.005 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.006 (0) Set semaphore last lock (fd) time to 2026-08-01 18:14:01
+0000.006 (0) Semaphore lock (fd) complete
+0000.007 (0) Backup run: resumption=0, nonce=7a21be7ae9ce, file_nonce=7a21be7ae9ce begun at=1785608041 (0s ago), job type=backup
+0000.008 (0) Scheduling a resumption (1) after 300 seconds (1785608341) in case this run gets aborted
+0000.019 (0) Checking if we have a zip executable available
+0000.020 (0) Testing: /usr/bin/zip
+0000.029 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.029 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.030 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.030 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.030 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.037 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.038 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.039 (0) Working binary zip found: /usr/bin/zip
+0000.039 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.039 (0) Creation of backups of directories: beginning
+0000.040 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.074 (0) Total entities for the zip file: 244 directories, 1354 files (0 skipped as non-modified), 27 MB
+0000.075 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.077 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.078 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.080 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.081 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.082 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.084 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.085 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.087 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.087 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1354 files batched, 940 (940) added so far); re-opening (prior size: 0 KB)
+0000.749 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: size is now: 7.30 MB
+0000.750 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 19849.6 KB/s)
+0000.751 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2906610965729, normalised_time=1.2897009447617, max_time=0.75063395500183, data points known=1, old_max_bytes=26214400, new_max_bytes=121955714)
+0000.752 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 1000 files added (on-disk size: 7510.6 KB)
+0000.754 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 1100 files added (on-disk size: 7510.6 KB)
+0000.756 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 1200 files added (on-disk size: 7510.6 KB)
+0000.757 (0) Zip: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.tmp: 1300 files added (on-disk size: 7510.6 KB)
+0000.864 (0) Creating zip file manifest (backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.list-temp.tmp)
+0000.866 (0) Successfully created zip file manifest (size: 118211)
+0000.923 (0) Created plugins zip (0) - 8265.5 KB in 0.9 s (9368.9 KB/s) (sha1: 02928133f033888808ea36a7b078eab0eadfeb30, sha256: 0b5cf0625fa537a5005c98551eadc916700f16e98735d2c13bae00f98abb71ad)
+0000.925 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.925 (0) No remote despatch: user chose no remote backup service
+0000.926 (0) Recording as successfully uploaded: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip
+0000.926 (0) Deleting zip manifest (backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip.list.tmp)
+0000.927 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0000.927 (0) Number of backup sets in history: 0; groups (db): 1
+0000.927 (0) Number of backup sets in history: 0; groups (files): 1
+0000.927 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0000.929 (0) Beginning creation of dump of themes (split every: 400 MB)
+0000.932 (0) Total entities for the zip file: 10 directories, 37 files (0 skipped as non-modified), 7.5 MB
+0001.066 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-themes.zip.tmp: size is now: 6.50 MB
+0001.068 (0) Creating zip file manifest (backup_2026-08-01-1814_cognipex_7a21be7ae9ce-themes.zip.list-temp.tmp)
+0001.069 (0) Successfully created zip file manifest (size: 1935)
+0001.116 (0) Created themes zip (0) - 6687.1 KB in 0.2 s (35975.1 KB/s) (sha1: c7661910a0e561fe755c26ee3f5d4f314d0e4b5b, sha256: b94da6ec13e31e2701bb54e3124116eb979a88df9091dfb179bdaff78ebc99ca)
+0001.117 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.117 (0) No remote despatch: user chose no remote backup service
+0001.118 (0) Recording as successfully uploaded: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-themes.zip
+0001.118 (0) Deleting zip manifest (backup_2026-08-01-1814_cognipex_7a21be7ae9ce-themes.zip.list.tmp)
+0001.119 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0001.120 (0) Number of backup sets in history: 0; groups (db): 1
+0001.120 (0) Number of backup sets in history: 0; groups (files): 1
+0001.120 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0001.121 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0001.122 (0) Looking for candidates to backup in: /Users/arunu/Local Sites/cognipex/app/public/wp-content/uploads
+0001.122 (0) finding files: 2026: adding to list (1)
+0001.122 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0001.126 (0) Total entities for the zip file: 4 directories, 53 files (0 skipped as non-modified), 39 MB
+0001.311 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-uploads.zip.tmp: size is now: 39.00 MB
+0001.313 (0) Creating zip file manifest (backup_2026-08-01-1814_cognipex_7a21be7ae9ce-uploads.zip.list-temp.tmp)
+0001.313 (0) Successfully created zip file manifest (size: 3898)
+0001.582 (0) Created uploads zip (0) - 39938.5 KB in 0.5 s (86968 KB/s) (sha1: eeca5a09aaaa9b078a7f63fa8c4f615463f5fa90, sha256: ec16efbcda1948fee08992f9d03f199f392560a2b64241b3a51950bc9e3ca5ea)
+0001.583 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.584 (0) No remote despatch: user chose no remote backup service
+0001.584 (0) Recording as successfully uploaded: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-uploads.zip
+0001.584 (0) Deleting zip manifest (backup_2026-08-01-1814_cognipex_7a21be7ae9ce-uploads.zip.list.tmp)
+0001.585 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0001.586 (0) Number of backup sets in history: 0; groups (db): 1
+0001.586 (0) Number of backup sets in history: 0; groups (files): 1
+0001.586 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0001.588 (0) No backup of mu-plugins: excluded by user's options
+0001.588 (0) Beginning backup of other directories found in the content directory (index: 0)
+0001.588 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0001.588 (0) Looking for candidates to backup in: /Users/arunu/Local Sites/cognipex/app/public/wp-content
+0001.589 (0) finding files: upgrade: skipping: excluded by options
+0001.589 (0) finding files: FUTURE_ACTIONS.md: adding to list (1)
+0001.590 (0) finding files: WORDPRESS_PRODUCT_BOILERPLATE.md: adding to list (2)
+0001.590 (0) finding files: index.php: adding to list (3)
+0001.590 (0) finding files: CHANGELOG.md: adding to list (4)
+0001.590 (0) finding files: plugins: skipping: this is the plugins directory
+0001.590 (0) finding files: uploads: skipping: this is the uploads directory
+0001.591 (0) finding files: updraft: skipping: this is the updraft directory
+0001.591 (0) finding files: docs: adding to list (5)
+0001.591 (0) finding files: .gitignore: adding to list (6)
+0001.591 (0) finding files: .git: adding to list (7)
+0001.591 (0) finding files: themes: skipping: this is the themes directory
+0001.591 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0001.597 (0) Total entities for the zip file: 63 directories, 95 files (0 skipped as non-modified), 0.2 MB
+0001.621 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-others.zip.tmp: size is now: 0.10 MB
+0001.622 (0) Creating zip file manifest (backup_2026-08-01-1814_cognipex_7a21be7ae9ce-others.zip.list-temp.tmp)
+0001.623 (0) Successfully created zip file manifest (size: 4831)
+0001.625 (0) Created others zip (0) - 112.9 KB in 0 s (3469 KB/s) (sha1: 507fbb645f7bb1290f8530533ecd2bece3b5fa58, sha256: 55f574f40ecf4399175829b5081a8c602d4d56d1d2047c2966abd42e117bb652)
+0001.626 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.626 (0) No remote despatch: user chose no remote backup service
+0001.626 (0) Recording as successfully uploaded: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-others.zip
+0001.627 (0) Deleting zip manifest (backup_2026-08-01-1814_cognipex_7a21be7ae9ce-others.zip.list.tmp)
+0001.627 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0001.627 (0) Number of backup sets in history: 0; groups (db): 1
+0001.628 (0) Number of backup sets in history: 0; groups (files): 1
+0001.628 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0001.630 (0) Saving backup status to database (elements: 8)
+0001.630 (0) Beginning creation of database dump (WordPress DB)
+0001.631 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0001.644 (0) Table wp_options: Total expected rows (via COUNT): 196
+0001.644 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.674 (0) Table wp_options: Rows added in this batch (next record: 336): 192 (uncompressed bytes in this segment=1290165) in 0.04 seconds
+0001.676 (0) Table wp_options: finishing file(s) (2, 259.7 KB)
+0001.678 (0) Table wp_users: Total expected rows (via COUNT): 1
+0001.679 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.679 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1405) in 0.00 seconds
+0001.681 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0001.684 (0) Table wp_usermeta: Total expected rows (via COUNT): 20
+0001.684 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.684 (0) Table wp_usermeta: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=2266) in 0.00 seconds
+0001.686 (0) Table wp_usermeta: finishing file(s) (2, 1.1 KB)
+0001.688 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0001.688 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.00 seconds
+0001.690 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0001.692 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0001.692 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.693 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2129) in 0.00 seconds
+0001.695 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0001.706 (0) Table wp_links: Total expected rows (via COUNT): 0
+0001.707 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.01 seconds
+0001.708 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0001.712 (0) Table wp_postmeta: Total expected rows (via COUNT): 83
+0001.713 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.714 (0) Table wp_postmeta: Rows added in this batch (next record: 113): 83 (uncompressed bytes in this segment=20627) in 0.00 seconds
+0001.716 (0) Table wp_postmeta: finishing file(s) (2, 3.3 KB)
+0001.718 (0) Table wp_posts: Total expected rows (via COUNT): 60
+0001.719 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.724 (0) Table wp_posts: Rows added in this batch (next record: 61): 60 (uncompressed bytes in this segment=206573) in 0.01 seconds
+0001.725 (0) Table wp_posts: finishing file(s) (2, 32.3 KB)
+0001.727 (0) Table wp_term_relationships: Total expected rows (approximate): 17
+0001.728 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 17 (uncompressed bytes in this segment=897) in 0.00 seconds
+0001.729 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0001.731 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 6
+0001.731 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.732 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1116) in 0.00 seconds
+0001.733 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0001.737 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0001.737 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.00 seconds
+0001.739 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0001.740 (0) Table wp_terms: Total expected rows (via COUNT): 6
+0001.741 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.741 (0) Table wp_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=917) in 0.00 seconds
+0001.742 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0001.743 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_options.table.tmpr337.gz (1/12/fopen): adding to final database dump
+0001.745 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0001.745 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0001.745 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0001.745 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_usermeta.table.tmpr21.gz (5/12/fopen): adding to final database dump
+0001.746 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0001.746 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0001.746 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0001.746 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0001.746 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0001.746 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0001.747 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0001.747 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_postmeta.table.tmpr114.gz (13/12/fopen): adding to final database dump
+0001.747 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0001.747 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_posts.table.tmpr62.gz (15/12/fopen): adding to final database dump
+0001.748 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0001.748 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0001.748 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0001.748 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_term_taxonomy.table.tmpr7.gz (19/12/fopen): adding to final database dump
+0001.748 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0001.749 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0001.749 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0001.749 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_terms.table.tmpr7.gz (23/12/fopen): adding to final database dump
+0001.749 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0001.758 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db.gz: finished writing out complete database file (300.7 KB)
+0001.762 (0) Total database tables backed up: 12 (backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db.gz, size: 308085, sha1: 9ce755a9e0bcc02b7809aff65cdd25623a620bd0, sha256: c770474d8e8c69832de914a8c7b8034a2148889b9e848f747a3560eb0b812be5)
+0001.764 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-plugins.zip: plugins: This file has already been successfully processed
+0001.764 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-themes.zip: themes: This file has already been successfully processed
+0001.764 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-uploads.zip: uploads: This file has already been successfully processed
+0001.764 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-others.zip: others: This file has already been successfully processed
+0001.764 (0) backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.764 (0) Saving backup history. Total backup size: 54 MB
+0001.765 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.766 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.766 (0) No remote despatch: user chose no remote backup service
+0001.766 (0) Recording as successfully uploaded: backup_2026-08-01-1814_cognipex_7a21be7ae9ce-db.gz
+0001.767 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0001.767 (0) Number of backup sets in history: 1; groups (db): 1
+0001.767 (0) Examining (for databases) backup set with group_id=0, nonce=7a21be7ae9ce, datestamp=1785608041 (Aug 01 2026 18:14:01)
+0001.767 (0) This backup set is the backup set just made, so will not be deleted.
+0001.767 (0) Number of backup sets in history: 1; groups (files): 1
+0001.768 (0) Examining (for files) backup set with nonce=7a21be7ae9ce, datestamp=1785608041 (Aug 01 2026 18:14:01)
+0001.768 (0) This backup set is the backup set just made, so will not be deleted.
+0001.768 (0) This backup set is the backup set just made, so will not be deleted.
+0001.768 (0) This backup set is the backup set just made, so will not be deleted.
+0001.768 (0) This backup set is the backup set just made, so will not be deleted.
+0001.768 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0001.768 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0001.769 (0) Resume backup (7a21be7ae9ce, 0): finish run
+0001.769 (0) Decremented the semaphore (fd) by 1
+0001.770 (0) Semaphore (fd) unlocked
+0001.770 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.771 (0) No email will/can be sent - the user has not configured an email address.
+0001.771 (0) The backup succeeded and is now complete

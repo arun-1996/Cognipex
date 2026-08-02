@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cogpace/rule-switch",
+	"version": "0.1.0",
+	"title": "Rule Switch Game",
+	"category": "widgets",
+	"icon": "randomize",
+	"description": "A private, session-only cognitive flexibility game.",
+	"keywords": [ "rules", "switch", "attention", "game" ],
+	"textdomain": "cogpace-core",
+	"supports": {
+		"align": [ "wide" ],
+		"html": false,
+		"multiple": false
+	},
+	"render": "file:./render.php",
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js"
+}

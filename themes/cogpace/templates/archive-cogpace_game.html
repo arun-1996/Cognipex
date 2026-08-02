@@ -1,0 +1,45 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","area":"header"} /-->
+
+<!-- wp:group {"tagName":"main","align":"wide","className":"cogpace-catalogue","layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignwide cogpace-catalogue">
+	<!-- wp:group {"className":"cogpace-page-header","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group cogpace-page-header">
+		<!-- wp:paragraph {"className":"cogpace-eyebrow","textColor":"accent","fontSize":"small"} -->
+		<p class="cogpace-eyebrow has-accent-color has-text-color has-small-font-size">Practise</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:heading {"level":1,"fontSize":"xx-large"} -->
+		<h1 class="wp-block-heading has-xx-large-font-size">Cognitive Games</h1>
+		<!-- /wp:heading -->
+
+		<!-- wp:paragraph {"textColor":"text-muted","fontSize":"medium"} -->
+		<p class="has-text-muted-color has-text-color has-medium-font-size">Short, accessible activities for thoughtful cognitive practice. These games are educational experiences, not medical assessments.</p>
+		<!-- /wp:paragraph -->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:query {"query":{"inherit":true},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-query">
+		<!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
+			<!-- wp:pattern {"slug":"cogpace/game-card"} /-->
+		<!-- /wp:post-template -->
+
+		<!-- wp:query-no-results -->
+			<!-- wp:paragraph {"textColor":"text-muted"} -->
+			<p class="has-text-muted-color has-text-color">The first cognitive game is being prepared.</p>
+			<!-- /wp:paragraph -->
+		<!-- /wp:query-no-results -->
+
+		<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+		<div class="wp-block-query-pagination">
+			<!-- wp:query-pagination-previous /-->
+			<!-- wp:query-pagination-numbers /-->
+			<!-- wp:query-pagination-next /-->
+		</div>
+		<!-- /wp:query-pagination -->
+	</div>
+	<!-- /wp:query -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","area":"footer"} /-->

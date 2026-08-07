@@ -7,6 +7,7 @@ uploads/
 
 plugins/updraftplus
 updraft/
+plugins/wp-migrate-db/
 
 # Cache
 cache/
